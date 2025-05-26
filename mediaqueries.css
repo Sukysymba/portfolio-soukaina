@@ -3,7 +3,7 @@
     height: 83vh;
     margin-bottom: 6rem;
   }
-  .about.containers {
+  .about-containers {
     flex-wrap: wrap;
   }
 }
@@ -20,7 +20,7 @@
     margin-top: 2rem;
   }
   #profile,
-  .section.container {
+  .section-container {
     display: block;
   }
   .arrow {
@@ -44,7 +44,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contant,
+  #contact,
   footer {
     height: 40vh;
   }
@@ -64,10 +64,10 @@
   .btn-container {
     flex-wrap: wrap;
   }
-  .contanct-info-container {
+  .contact-info-container {
     margin: 0;
   }
-  .contanct-info-container p,
+  .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
   }
@@ -79,10 +79,10 @@
   }
   .nav-links {
     flex-direction: column;
-    gap: 0.5;
+    gap: 0.5rem;
     text-align: center;
   }
-  .section__pic_container {
+  .section__pic-container {
     width: auto;
     height: 46vh;
     justify-content: center;
